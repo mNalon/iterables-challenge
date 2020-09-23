@@ -1,0 +1,23 @@
+{
+  "name": "iterables-challenge",
+  "version": "1.0.0",
+  "description": "A project to challenge you on using of iterables",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mNalon/iterables-challenge.git"
+  },
+  "keywords": [
+    "iterables",
+    "javascript"
+  ],
+  "author": "nalon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mNalon/iterables-challenge/issues"
+  },
+  "homepage": "https://github.com/mNalon/iterables-challenge#readme"
+}
