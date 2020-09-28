@@ -4,7 +4,7 @@
   "description": "A project to challenge you on using of iterables",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest index.spec.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mNalon/iterables-challenge/issues"
   },
-  "homepage": "https://github.com/mNalon/iterables-challenge#readme"
+  "homepage": "https://github.com/mNalon/iterables-challenge#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
 }
