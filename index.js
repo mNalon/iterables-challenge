@@ -26,7 +26,7 @@ const neighborsIterable = (list) => {
 
 }
 
-export {
+module.exports = {
   paIterable,
   schoolStudentsIterable,
   neighborsIterable
