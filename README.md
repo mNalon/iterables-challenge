@@ -19,4 +19,4 @@ npm install
 npm test
 ```
 
-If all tests pass, you won!!!
+If all tests pass, you did good!!!

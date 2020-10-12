@@ -19,8 +19,10 @@ const schoolStudentsIterable = (schools) => {
 
 /* 
 Returns an iterable to iterate through all neighbors on a list.
-The neighbors are composed by the correspondent element on the iteration 
-and its neighbors on the previous and next positions in the list.
+Each neighbor are composed by: 
+the previous element related to the correspondent element on the iteration (if this exists),
+the correspondent element on the iteration
+and the next element related to the correspondent element on the iteration (if this exists)
 */
 const neighborsIterable = (list) => {
 

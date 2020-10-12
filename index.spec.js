@@ -41,7 +41,7 @@ describe('Iterables challenge', () => {
   })
 
   describe('schoolStudentsIterable', () => {
-    it('should be possible iterate through all students of all schools', () => {
+    it('should be possible to iterate through all students of all schools', () => {
       const schools =  [
         { students: ['Jeremy', 'Iola', 'Odette', 'Nigel'] },
         { students: ['Kibo', 'Dalton', 'Dorothy'] },
@@ -59,6 +59,23 @@ describe('Iterables challenge', () => {
   })
 
   describe('neighborsIterable', () => {
+    const neighborhood = [
+      'Jeremy', 'Iola', 'Odette', 'Nigel',
+      'Kibo', 'Dalton', 'Dorothy', 'Quintessa'
+    ]
+
+    it('should be possible to iterate through all neighbors of a list', () => {
+      expect([...neighborsIterable(neighborhood)]).toEqual([
+        ['Jeremy', 'Iola'],
+        ['Jeremy', 'Iola', 'Odette'],
+        ['Iola', 'Odette', 'Nigel'],
+        ['Odette', 'Nigel', 'Kibo'],
+        ['Nigel', 'Kibo', 'Dalton'],
+        ['Kibo', 'Dalton', 'Dorothy'],
+        ['Dalton', 'Dorothy', 'Quintessa'],
+        ['Dorothy', 'Quintessa']
+      ])
+    })
 
   })
 })
